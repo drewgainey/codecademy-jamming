@@ -10,6 +10,7 @@ export class SearchBar extends React.Component {
     search(searchTerm) {
         this.props.onSearch(searchTerm);
     }
+    
     handleTermChange(e) {
         this.search(e.target.value);
     }
